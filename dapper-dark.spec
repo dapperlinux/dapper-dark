@@ -5,7 +5,7 @@ Summary: Dapper Linux Dark Theme
 URL:     https://github.com/dapperlinux/dapper-dark
 License: GPLv3+
 BuildArch: noarch
-Source0: https://github.com/dapperlinux/dapper-dark/archive/3.20.tar.gz
+Source0: https://github.com/dapperlinux/dapper-dark/archive/%{version}.tar.gz
 Requires: gtk-murrine-engine
 
 %description
@@ -14,7 +14,7 @@ The shell theme is based on hdni's Phosphene, and the GTK theme is based
 on Arc-Dark. 
 
 %prep
-%autosetup -n %{version}
+%autosetup
 
 %build
 
