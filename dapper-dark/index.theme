@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Dapper-Dark
+Comment=Modified Phosphene Shell Theme and Arc-Dark GTK Theme for Dapper Linux
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Dapper-Dark
+MetacityTheme=Dapper-Dark
+IconTheme=gnome
+CursorTheme=DMZ-Black
+ButtonLayout=menu:minimize,maximize,close
