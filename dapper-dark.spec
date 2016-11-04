@@ -1,11 +1,11 @@
 Name:    dapper-dark
-Version: 3.20
+Version: 3.22
 Release: 1%{?dist}
 Summary: Dapper Linux Dark Theme
 URL:     https://github.com/dapperlinux/dapper-dark
 License: GPLv3+
 BuildArch: noarch
-Source0: https://github.com/dapperlinux/dapper-dark/archive/%{version}.tar.gz
+Source0: %{name}-%{version}.tar.xz
 Requires: gtk-murrine-engine
 
 %description
@@ -26,5 +26,8 @@ cp -r %{name} %{buildroot}/usr/share/themes/
 /usr/share/themes/%{name}/*
 
 %changelog
+* Fri Nov 4 2016 Matthew Ruffell
+- 3.22 Updating for F25
+
 * Sat Oct 1 2016 Matthew Ruffell
 - 3.20 r1 Initial Packaging
