@@ -1,6 +1,6 @@
 Name:    dapper-dark
-Version: 3.22
-Release: 1%{?dist}
+Version: 3.24
+Release: 1
 Summary: Dapper Linux Dark Theme
 URL:     https://github.com/dapperlinux/dapper-dark
 License: GPLv3+
@@ -23,9 +23,13 @@ mkdir -p %{buildroot}/usr/share/themes/
 cp -r %{name} %{buildroot}/usr/share/themes/
 
 %files
+%license LICENSE
 /usr/share/themes/%{name}/*
 
 %changelog
+* Thu Aug 10 2017 Matthew Ruffell
+- 3.24 Updating for F26
+
 * Fri Nov 4 2016 Matthew Ruffell
 - 3.22 Updating for F25
 
