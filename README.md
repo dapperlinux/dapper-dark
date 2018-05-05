@@ -17,12 +17,12 @@ Next, setup rpmbuild directories with
 ```bash
 $ rpmdev-setuptree
 ```
-And place the file dapper-dark.spec in the SPECS directory, and rename the dapper-dark directory to dapper-dark-3.26 and compress it:
+And place the file dapper-dark.spec in the SPECS directory, and rename the dapper-dark directory to dapper-dark-3.28 and compress it:
 ```bash
 $ mv dapper-dark.spec ~/rpmbuild/SPECS/
-$ mv dapper-dark dapper-dark-3.26
-$ tar -cJvf dapper-dark-3.26.tar.xz dapper-dark-3.26
-$ mv dapper-dark-3.26.tar.xz ~/rpmbuild/SOURCES/
+$ mv dapper-dark dapper-dark-3.28
+$ tar -cJvf dapper-dark-3.28.tar.xz dapper-dark-3.28
+$ mv dapper-dark-3.28.tar.xz ~/rpmbuild/SOURCES/
 ```
 
 and finally, you can build RPMs and SRPMs with:
