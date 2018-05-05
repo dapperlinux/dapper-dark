@@ -27,7 +27,7 @@ cp -r %{name} %{buildroot}/usr/share/themes/
 /usr/share/themes/%{name}/*
 
 %changelog
-* Thu Aug 10 2017 Matthew Ruffell
+* Sat May  5 2018 Matthew Ruffell
 - 3.28 Updating for DL28
 
 * Thu Aug 10 2017 Matthew Ruffell
