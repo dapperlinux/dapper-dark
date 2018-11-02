@@ -1,5 +1,5 @@
 Name:    dapper-dark
-Version: 3.28
+Version: 3.30
 Release: 1
 Summary: Dapper Linux Dark Theme
 URL:     https://github.com/dapperlinux/dapper-dark
@@ -27,6 +27,9 @@ cp -r %{name} %{buildroot}/usr/share/themes/
 /usr/share/themes/%{name}/*
 
 %changelog
+* Sat Nov  3 2018 Matthew Ruffell
+- 3.30 Updating for DL28
+
 * Sat May  5 2018 Matthew Ruffell
 - 3.28 Updating for DL28
 
